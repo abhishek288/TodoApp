@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+  background-image: url("./images/bg2.jpg");
+  background-color: #cccccc;
+  height: 760px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
