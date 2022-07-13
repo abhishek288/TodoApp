@@ -203,3 +203,111 @@
 .form-list>img{
   margin-right: 10px;
 }
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url("./images/bg5.jpg");
+    background-color: pink;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-attachment: fixed;
+    position:fixed;
+  }
+  .navbar{
+    display:flex;
+    font-family:'Karla', sans-serif;
+    font-size:17px;
+    margin-left: 65px;
+    justify-content: center;
+    color:black;
+  }
+  .navbar>img{
+    width:25px;
+    margin-right: 5px;
+  }
+  .linebreak{
+   display: none;
+  }
+  .divide{
+   display:none;
+  }
+
+  .mainsidebar{
+    display: none;
+  }
+  .main{
+    position: fixed;
+    width: -webkit-fill-available;
+    top: 160vh;
+    height: -webkit-fill-available;
+    margin-left:0px;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+   }
+   .main-content{
+    position: fixed;
+    top: 111px;
+   height: 450px;
+   width: 80%;
+  display: block;
+ 
+  }
+   .main-title{
+    position: fixed;
+    top: 56px;
+    margin-left: 30px;
+  }
+  .complete{
+    display: flex;
+    background: white; 
+    width:90px;
+    border-radius: 15px; 
+    justify-content: center;
+    align-items: center;
+    padding-right: 12px;
+    padding-left: 6px;
+    margin-left:auto
+  }
+  .complete>h3{
+    margin-left :6px;
+    font-size: 10px;
+  }
+  .list-items{
+    height:35px;
+  }
+  .form{
+    position: fixed;
+    bottom:0;
+    border-radius: 13px;
+    width: 80%;
+     background: white;
+    border:1px solid rgb(245, 237, 237);
+    display: flex;
+    align-items: center;
+    margin:30px;
+    margin-bottom:15px;
+    height:35px;
+  }
+  .form>input{
+    border: none;
+    background:transparent;
+    border-color: none;
+    width: 100%;
+    margin: 15px;
+    height:24px;
+    padding: 0; 
+    outline: none;
+  }
+  .list{
+    display: flex;
+    flex-direction: column;
+    padding-right: 16px;
+    overflow-x: hidden;
+    display: block;
+    overflow-y: auto;
+    height: 400px;
+  }
+} 
