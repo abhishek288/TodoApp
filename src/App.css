@@ -4,6 +4,7 @@
   font-size:12px;
   margin-left: 5px;
   align-items:center;
+  position:fixed;
 }
 .navbar>img{
   width:33px;
@@ -17,14 +18,16 @@
 
 
 .sidebar{
+  position:fixed;
   font-family: 'Karla', sans-serif;
   font-weight:400;
   color:black;
   margin-left: 5px;
-  width:15%
+  width:15%;
+  margin-top: 59px;
 }
 .linebreak{
-  position:absolute;
+  position:fixed;
   border-color:rgb(235, 239, 235);
   border-style:groove;
   left: 0;
@@ -68,20 +71,24 @@
  display: flex;
  flex-direction:column;
  justify-content:center;
- 
+ align-items: center;
 }
 .main-title{
   position: fixed;
   top: -12px;
   margin-left: 30px;
+  align-self: flex-start;
 }
+
 .main-content{
   position: fixed;
   top: 76px;
   margin-left: 30px;
   height: 550px;
-  width: 80%;
+  min-width: 60%;
+  max-width: 80%;
   overflow: hidden;
+  align-self: flex-start;
 }
 .complete{
   display: flex;
@@ -149,7 +156,8 @@
   position: fixed;
   bottom:0;
   border-radius: 13px;
-  width: 80%;
+  min-width: 65%;
+  max-width: inherit;
    background: white;
   border:1px solid rgb(245, 237, 237);
   display: flex;
@@ -185,7 +193,7 @@
   
 }
 .form-list{
-  position:absolute;
+  position:fixed;
   bottom: 0;
   margin-bottom:35px;
   background-color: white;
@@ -203,6 +211,7 @@
 .form-list>img{
   margin-right: 10px;
 }
+
 @media only screen and (max-width: 600px) {
   body {
     background-image: url("./images/bg5.jpg");
